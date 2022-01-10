@@ -53,7 +53,7 @@ namespace PalindromingMVC.Controllers
             palindrome.RevWord = revWord;
 
             revWord = Regex.Replace(revWord.ToLower(), "[^a-zA-Z0-9]+","");
-            inputWord = Regex.Replace(inputWord.ToLower(), "[^a-zA-Z0-9]+", "");
+            inputWord = Regex.Replace(inputWord.ToLower(), "[^a-zA-Z0-9]+","");
             
             if (revWord == inputWord)
             {
